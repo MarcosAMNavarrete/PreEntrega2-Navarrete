@@ -1,0 +1,174 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+header{
+    display: flex;
+    min-height: 4.375rem;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: .625rem;
+}
+
+.persona{
+    display: flex;
+    align-items: center;
+}
+
+.persona img{
+    height: 3.125rem;
+    margin-right: .625rem;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: .625rem;
+}
+nav a:hover{
+    color: white
+}
+
+@media (max-width:43.75rem){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: .625rem 0rem;
+    }
+}
+
+.centro{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.informacion{
+    flex: 1;
+    min-width: 15.625rem;
+    font-family: 'Lora', serif;
+}
+
+.informacion:first-child{
+    flex: 2;
+    padding: 1.5625rem;
+    background-color: bisque;
+    margin: 1.25rem;
+    margin-bottom: 0rem;
+}
+
+.informacion div{
+    padding: 1.5625rem;
+    background-color: bisque;
+    margin: 1.25rem;
+}
+
+.cancion{
+    flex: 1;
+    min-width: 15.625rem;
+    font-family: 'Lora', serif;
+}
+
+.cancion:first-child{
+    flex: 2;
+    padding: 1.5625rem;
+    background-color: bisque;
+    margin: 1.25rem;
+    margin-bottom: 0rem;
+}
+
+.cancion div{
+    padding: 1.5625rem;
+    background-color: bisque;
+    margin: 1.25rem;
+}
+
+.main .section .div a{
+display: flex;
+
+}
+
+.pie-pagina{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    min-height: 4.375rem;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: center;
+    padding: .625rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.pie-pagina .pie{
+    width: 100%;
+    max-width: 75rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3.125rem;
+    padding: 2.8125rem 0rem;
+}
+
+.pie-pagina .pie .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .pie .box figure img{
+    width: 15.625rem;
+}
+
+.pie-pagina .pie .box h2{
+    color: brown;
+    margin-bottom: 1.5625rem;
+    font-size: 1.25rem;
+}
+
+.pie-pagina .pie .box p{
+    margin-bottom: 1.25rem;
+}
+
+.pie-pagina .pie .red-social{
+    display: inline-block;
+    text-decoration: none;
+    width: 2.8125rem;
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+    color: bisque;
+    margin-right: .625rem;
+    background-color: black;
+    text-align: center;
+}
+
+@media screen and (max-width:50rem){
+    .pie-pagina .pie{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1.875rem;
+        padding: 2.1875rem 0rem;}
+    }
