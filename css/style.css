@@ -9,6 +9,7 @@ body{
 }
 
 
+
 header{
     display: flex;
     min-height: 4.375rem;
@@ -75,6 +76,15 @@ nav a:hover{
     margin: 1.25rem;
 }
 
+.color-amigos{
+    color: darkorange;
+    text-decoration: none;
+}
+
+.color-amigos:hover{
+    color: violet;
+}
+
 .cancion{
     flex: 1;
     min-width: 15.625rem;
@@ -89,7 +99,16 @@ nav a:hover{
     margin-bottom: 0rem;
 }
 
-.cancion div{
+.cancion-color{
+    color: red;
+    text-decoration: none;
+}
+
+.cancion-color:hover{
+    color: black;
+}
+
+.cancion {
     padding: 1.5625rem;
     background-color: bisque;
     margin: 1.25rem;
@@ -98,10 +117,6 @@ nav a:hover{
 .main .section .div a{
 display: flex;
 
-}
-
-.pie-pagina{
-    width: 100%;
 }
 
 footer{
