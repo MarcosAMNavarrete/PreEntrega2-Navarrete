@@ -176,6 +176,15 @@ footer{
     text-align: center;
 }
 
+.concierto{
+    text-decoration: none;
+    color: black;
+}
+
+.concierto:hover{
+    color: green
+}
+
 @media screen and (max-width:50rem){
     .pie-pagina .pie{
         width: 90%;
