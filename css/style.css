@@ -29,12 +29,32 @@ header{
     margin-right: .625rem;
 }
 
+.parrafo{
+    font-size: large;
+}
+
 nav a{
     font-weight: 600;
     padding-right: .625rem;
 }
 nav a:hover{
     color: white
+}
+
+.gato{
+    color: gray;
+}
+
+.perro{
+    text-decoration: none;
+    color: violet;
+}
+.perro:hover{
+    color: brown;
+}
+.abc{
+    text-decoration: none;
+    color: aqua;
 }
 
 @media (max-width:43.75rem){
@@ -174,6 +194,16 @@ footer{
     margin-right: .625rem;
     background-color: black;
     text-align: center;
+}
+
+.antezana-color{
+    color: brown;
+    text-decoration: none;
+    margin: 1.25rem;
+}
+
+.antezana-color:hover{
+    color: black;
 }
 
 .concierto{
