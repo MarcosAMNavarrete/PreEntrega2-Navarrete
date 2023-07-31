@@ -1,0 +1,32 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+header{
+    display: flex;
+    min-height: 4.375rem;
+    background-color: #12090783;
+    justify-content: space-between;
+    align-items: center;
+    padding: .625rem;
+    color: #f3deed;
+    .persona{
+        display: flex;
+        align-items: center;
+        img{
+            height: 3.125rem;
+            margin-right: .625rem;
+        }
+    }
+    nav{
+        .abc{
+            text-decoration: none;
+            color:#68628b;
+            padding: 0px 20px;
+            margin-right: 20px;
+            &:hover{
+                color:#aea1e6;
+            }
+        }
+    }
+}

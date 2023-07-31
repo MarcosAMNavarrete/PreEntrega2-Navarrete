@@ -1,224 +1,231 @@
-*{
-    padding: 0rem;
-    margin: 0rem;
-}
+* {
+  padding: 0rem;
+  margin: 0rem; }
 
-body{
-    font-family: sans-serif;
-    margin: 0;
-}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image: url(https://images6.alphacoders.com/478/478918.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
-
-
-header{
+header {
+  display: flex;
+  min-height: 4.375rem;
+  background-color: #12090783;
+  justify-content: space-between;
+  align-items: center;
+  padding: .625rem;
+  color: #f3deed; }
+  header .persona {
     display: flex;
-    min-height: 4.375rem;
-    background-color: coral;
-    justify-content: space-between;
-    align-items: center;
-    padding: .625rem;
-}
-
-.persona{
-    display: flex;
-    align-items: center;
-}
-
-.persona img{
-    height: 3.125rem;
-    margin-right: .625rem;
-}
-
-.parrafo{
-    font-size: large;
-}
-
-nav a{
-    font-weight: 600;
-    padding-right: .625rem;
-}
-nav a:hover{
-    color: white
-}
-
-.gato{
-    color: gray;
-}
-
-.perro{
+    align-items: center; }
+    header .persona img {
+      height: 3.125rem;
+      margin-right: .625rem; }
+  header nav .abc {
     text-decoration: none;
-    color: violet;
-}
-.perro:hover{
-    color: brown;
-}
-.abc{
-    text-decoration: none;
-    color: aqua;
-}
+    color: #68628b;
+    padding: 0px 20px;
+    margin-right: 20px; }
+    header nav .abc:hover {
+      color: #aea1e6; }
 
-@media (max-width:43.75rem){
-    header{
-        flex-direction: column;
-    }
-    nav{
-        padding: .625rem 0rem;
-    }
-}
+.centro {
+  display: flex;
+  padding: 10px 10px;
+  gap: 10px; }
+  .centro div {
+    text-align: center; }
+  .centro .informacion-0 {
+    max-width: 65%;
+    background: bisque;
+    transition: all 0.4s ease; }
+    .centro .informacion-0:hover {
+      font-size: 18px; }
+    .centro .informacion-0 h2 {
+      padding-top: 2%; }
+    .centro .informacion-0 p {
+      padding: 0px 50px 20px 50px; }
+  .centro #informacion-1 {
+    height: 100%; }
+    .centro #informacion-1 .div-info-1 {
+      color: white;
+      margin-bottom: 10px;
+      padding-bottom: 50px;
+      border: 2px solid rgba(255, 0, 0, 0.274);
+      transition: all 0.4s ease; }
+      .centro #informacion-1 .div-info-1:hover {
+        font-size: 18px;
+        border-radius: 30px;
+        color: white;
+        background: rgba(255, 255, 255, 0.267);
+        border: 3px solid rgba(255, 0, 0, 0.575); }
+    .centro #informacion-1 .div-info-2 {
+      color: white;
+      margin-bottom: 10px;
+      padding-bottom: 50px;
+      border: 2px solid rgba(255, 0, 0, 0.274);
+      transition: all 0.4s ease; }
+      .centro #informacion-1 .div-info-2:hover {
+        font-size: 18px;
+        border-radius: 18px;
+        color: white;
+        background: rgba(255, 255, 255, 0.267);
+        border: 3px solid rgba(255, 0, 0, 0.575); }
 
-.centro{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.album{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.informacion{
-    flex: 1;
-    min-width: 15.625rem;
-    font-family: 'Lora', serif;
-}
-
-.informacion:first-child{
-    flex: 2;
-    padding: 1.5625rem;
-    background-color: bisque;
-    margin: 1.25rem;
-    margin-bottom: 0rem;
-}
-
-.informacion div{
-    padding: 1.5625rem;
-    background-color: bisque;
-    margin: 1.25rem;
-}
-
-.color-amigos{
-    color: darkorange;
-    text-decoration: none;
-}
-
-.color-amigos:hover{
-    color: violet;
-}
-
-.cancion{
-    flex: 1;
-    min-width: 15.625rem;
-    font-family: 'Lora', serif;
-}
-
-.cancion:first-child{
-    flex: 2;
-    padding: 1.5625rem;
-    background-color: bisque;
-    margin: 1.25rem;
-    margin-bottom: 0rem;
-}
-
-.cancion-color{
-    color: red;
-    text-decoration: none;
-}
-
-.cancion-color:hover{
-    color: black;
-}
-
-.cancion {
-    padding: 1.5625rem;
-    background-color: bisque;
-    margin: 1.25rem;
-}
-
-.main .section .div a{
-display: flex;
-
-}
-
-footer{
-    display: flex;
-    min-height: 4.375rem;
-    background-color: gold;
-    justify-content: space-between;
-    align-items: center;
-    padding: .625rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-}
-
-.pie-pagina .pie{
+footer {
+  display: flex;
+  min-height: 4.375rem;
+  background-color: gold;
+  justify-content: space-between;
+  align-items: center;
+  padding: .625rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem; }
+  footer div .pie {
     width: 100%;
     max-width: 75rem;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3.125rem;
-    padding: 2.8125rem 0rem;
-}
-
-.pie-pagina .pie .box figure{
+    padding: 2.8125rem 0rem; }
+  footer div div .box {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center; }
 
-.pie-pagina .pie .box figure img{
-    width: 15.625rem;
-}
+* {
+  padding: 0rem;
+  margin: 0rem; }
 
-.pie-pagina .pie .box h2{
-    color: brown;
-    margin-bottom: 1.5625rem;
-    font-size: 1.25rem;
-}
-
-.pie-pagina .pie .box p{
-    margin-bottom: 1.25rem;
-}
-
-.pie-pagina .pie .red-social{
-    display: inline-block;
+header {
+  display: flex;
+  min-height: 4.375rem;
+  background-color: #12090783;
+  justify-content: space-between;
+  align-items: center;
+  padding: .625rem;
+  color: #f3deed; }
+  header .persona {
+    display: flex;
+    align-items: center; }
+    header .persona img {
+      height: 3.125rem;
+      margin-right: .625rem; }
+  header nav .abc {
     text-decoration: none;
-    width: 2.8125rem;
-    height: 2.8125rem;
-    line-height: 2.8125rem;
-    color: bisque;
-    margin-right: .625rem;
-    background-color: black;
-    text-align: center;
-}
+    color: #68628b;
+    padding: 0px 20px;
+    margin-right: 20px; }
+    header nav .abc:hover {
+      color: #aea1e6; }
 
-.antezana-color{
-    color: brown;
+main section .album {
+  display: flex;
+  flex-wrap: wrap; }
+  main section .album div .cancion {
+    flex: 1;
+    min-width: 15.625rem;
+    font-family: 'Lora', serif; }
+    main section .album div .cancion:first-child {
+      flex: 2;
+      padding: 1.5625rem;
+      background-color: bisque;
+      margin: 1.25rem;
+      margin-bottom: 0rem; }
+      main section .album div .cancion:first-child ol li a .cancion-color {
+        color: red;
+        text-decoration: none; }
+        main section .album div .cancion:first-child ol li a .cancion-color:hover {
+          color: black; }
+    main section .album div .cancion div a .color-amigos {
+      color: darkorange;
+      text-decoration: none; }
+      main section .album div .cancion div a .color-amigos:hover {
+        color: violet; }
+
+footer {
+  display: flex;
+  min-height: 4.375rem;
+  background-color: gold;
+  justify-content: space-between;
+  align-items: center;
+  padding: .625rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem; }
+  footer .pie-pagina .pie {
+    width: 100%;
+    max-width: 75rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3.125rem;
+    padding: 2.8125rem 0rem; }
+
+* {
+  padding: 0rem;
+  margin: 0rem; }
+
+header {
+  display: flex;
+  min-height: 4.375rem;
+  background-color: #12090783;
+  justify-content: space-between;
+  align-items: center;
+  padding: .625rem;
+  color: #f3deed; }
+  header .persona {
+    display: flex;
+    align-items: center; }
+    header .persona img {
+      height: 3.125rem;
+      margin-right: .625rem; }
+  header nav .abc {
     text-decoration: none;
-    margin: 1.25rem;
-}
+    color: #68628b;
+    padding: 0px 20px;
+    margin-right: 20px; }
+    header nav .abc:hover {
+      color: #aea1e6; }
 
-.antezana-color:hover{
-    color: black;
-}
+* {
+  padding: 0rem;
+  margin: 0rem; }
 
-.concierto{
-    text-decoration: none;
-    color: black;
-}
+form {
+  width: 300px;
+  margin: 0 auto; }
 
-.concierto:hover{
-    color: green
-}
+label {
+  display: block;
+  margin-bottom: 5px; }
 
-@media screen and (max-width:50rem){
-    .pie-pagina .pie{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 1.875rem;
-        padding: 2.1875rem 0rem;}
-    }
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; }
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer; }
+
+input[type="submit"]:hover {
+  background-color: #45a049; }
+
+.formulario {
+  color: white; }
