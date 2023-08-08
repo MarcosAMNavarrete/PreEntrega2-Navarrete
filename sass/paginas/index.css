@@ -1,0 +1,17 @@
+@charset "UTF-8";
+main .diseño-div {
+  background-color: #627C85;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main .diseño-div:hover {
+  border-radius: 30px;
+}
+main .diseño-div:hover .diseño-h1 {
+  color: bisque;
+}
+main .diseño-div:hover .diseño-p {
+  color: white;
+  font-size: 18px;
+}/*# sourceMappingURL=index.css.map */

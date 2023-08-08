@@ -1,0 +1,18 @@
+main{
+    .diseño-div{
+        background-color: #627C85;
+        border-radius: 20px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        &:hover{
+            border-radius: 30px;
+            .diseño-h1{
+                color: bisque;
+            }
+            .diseño-p{
+                color: white;
+                font-size: 18px;
+            }
+        }
+    }
+}

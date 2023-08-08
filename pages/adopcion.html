@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopción de Perros y Gatos - Encuentra a tu Nuevo Compañero</title>
+    <meta name="description" content="En esta página encontrarás información sobre los perros y gatos disponibles para adopción, así como el proceso para darles un hogar amoroso.">
+    <meta name="keywords" content="adopción, perros, gatos, hogar, compañero">
+    <link rel="stylesheet" href="/CSS/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a style="font-family: Georgia, 'Times New Roman', Times, serif;" class="navbar-brand" href="../index.html">Cats and Dogs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./situacion.html">Situación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rescate.html">Rescate</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./adopcion.html">Adopción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container mt-4">
+        <h1>Adopción de Perros y Gatos</h1>
+        <p>En esta página podrás encontrar información sobre cómo adoptar a un perro o gato en situación de calle.
+            Adoptar a un animal es una decisión responsable y gratificante, y le das una segunda oportunidad de tener un
+            hogar amoroso.</p>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Adopta un Perro</h2>
+                <p>Los perros son animales leales y cariñosos. Al adoptar a un perro, le das la oportunidad de tener una
+                    familia que lo cuide y lo ame para siempre.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Adopta un Gato</h2>
+                <p>Los gatos son criaturas independientes y afectuosas. Al adoptar a un gato, le brindas un hogar seguro
+                    y la posibilidad de vivir una vida plena y feliz.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-8 offset-md-2">
+                <h3>Formulario de Adopción</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombreApellido" class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="nombreApellido" name="nombreApellido" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input type="number" class="form-control" id="edad" name="edad" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Número de Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="informacion" class="form-label">Breve información sobre por qué quieres adoptar al
+                            gato/perro</label>
+                        <textarea class="form-control" id="informacion" name="informacion" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Derechos de autor © 2023 - Mi Sitio - Adopción de Perros y Gatos</p>
+    </footer>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

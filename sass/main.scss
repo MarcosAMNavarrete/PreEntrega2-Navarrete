@@ -1,0 +1,13 @@
+$primary: #80d3bb;
+$secondary: #7f7971;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f3eae8;
+$dark: #151607;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../sass/paginas/fondos.scss';
+@import '../sass/paginas/all.scss';
+@import '../sass/paginas/index.scss';
