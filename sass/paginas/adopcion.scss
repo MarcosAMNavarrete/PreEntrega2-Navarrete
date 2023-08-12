@@ -1,70 +1,83 @@
-main{
-    .div-adopcion{
+main {
+    .div-adopcion {
         background-color: rgba(245, 245, 245, 0.486);
         border-radius: 20px;
         text-align: center;
-        .h1-adopcion{
+
+        .h1-adopcion {
             font-weight: bold;
             margin: 10px;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .p-adopcion{
+
+        .p-adopcion {
             margin: 10px;
             font-family: Arial, Helvetica, sans-serif;
         }
-        &:hover{
+
+        &:hover {
             background-color: bisque;
             transition-duration: 0.3s;
             font-size: 20px;
         }
     }
-    #div-adopcion-perro{
+
+    #div-adopcion-perro {
         background-color: rgba(245, 245, 245, 0.486);
         border-radius: 20px;
         text-align: center;
         margin: 20px;
         display: inline-block;
-        .h2-adopcion-perro{
+
+        .h2-adopcion-perro {
             margin-top: 10px;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
-            .p-adopcion-perro{
+
+            .p-adopcion-perro {
                 font-family: Arial, Helvetica, sans-serif;
             }
         }
-        &:hover{
+
+        &:hover {
             background-color: white;
             font-size: 20px;
             transition: font-size 0.3s;
         }
     }
-    #div-adopcion-gato{
+
+    #div-adopcion-gato {
         background-color: rgba(245, 245, 245, 0.486);
         border-radius: 20px;
         text-align: center;
         margin: 20px;
         display: inline-block;
-        .h2-adopcion-gato{
+
+        .h2-adopcion-gato {
             margin-top: 10px;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
-            .p-adopcion-gato{
+
+            .p-adopcion-gato {
                 font-family: Arial, Helvetica, sans-serif;
             }
         }
-        &:hover{
+
+        &:hover {
             background-color: white;
             font-size: 20px;
             transition: font-size 0.3s;
         }
     }
-    .formulario-adopcion{
+
+    .formulario-adopcion {
         text-align: center;
         background-color: bisque;
         font-family: Georgia, 'Times New Roman', Times, serif;
         border-radius: 300px;
     }
-    .form-adopcion{
+
+    .form-adopcion {
         background-color: #fbe5acd0;
         text-align: center;
         border-radius: 20px;

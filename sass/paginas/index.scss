@@ -1,21 +1,25 @@
-main{
-    .diseño-div{
+main {
+    .diseño-div {
         background-color: #627C85;
         border-radius: 20px;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        &:hover{
+
+        &:hover {
             border-radius: 30px;
-            .diseño-h1{
+
+            .diseño-h1 {
                 color: bisque;
             }
-            .diseño-p{
+
+            .diseño-p {
                 color: white;
                 font-size: 18px;
             }
         }
     }
-    .card{
+
+    .card {
         background-color: #627C85;
         border-color: #63997a;
     }
