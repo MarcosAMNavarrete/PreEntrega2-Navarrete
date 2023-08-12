@@ -2,6 +2,7 @@
 
 Este es un sitio web dedicado a concientizar sobre la situación de los perros y gatos que se encuentran en situación de calle, y promover el rescate y la adopción de estos animales desprotegidos.
 
+
 ## Contenido
 
 El sitio web cuenta con las siguientes páginas:
@@ -25,6 +26,22 @@ La página de adopción (adopcion.html) presenta a los perros y gatos disponible
 ### Página de Contacto
 
 La página de contacto (contacto.html) ofrece información para comunicarse con el equipo de rescate. Se incluyen los datos personales de los responsables del proyecto, Marcos Navarrete y Paula Estoquin, así como los números de teléfono de contacto. Además, se proporciona la dirección del lugar donde se encuentran los perros y gatos rescatados, ubicado en la calle Don Bosco, altura 3278.
+
+## Profesores y Tutores
+
+*Profesores*
+
+"Maximiliano Cardenas"
+
+*Tutores Regulares CoderAsk*
+
+"Joaquín De La Parra"
+
+"Yeison Rodriguez"
+
+*Tutores Adjuntos CoderAsk*
+
+"Damian Laterza"
 
 ## Tecnologías Utilizadas
 

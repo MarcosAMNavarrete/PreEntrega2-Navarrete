@@ -1,0 +1,29 @@
+main{
+    .div-contacto{
+        background-color: #e1e3db;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 5px;
+        .titulo-contacto{
+            background-color: antiquewhite;
+            border-radius: 20px;
+            margin: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    .div-contacto-miembros{
+        background-color: #e1e3db;
+        text-align: center;
+        border-radius: 30px;
+        .titulo-contacto-miembro{
+            background-color: antiquewhite;
+            border-radius: 30px;
+            margin: 5px;
+        }
+        .texto-contacto-miembro{
+            background-color: antiquewhite;
+            border-radius: 30px;
+            margin: 5px;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+main .div-adopcion {
+  background-color: rgba(245, 245, 245, 0.486);
+  border-radius: 20px;
+  text-align: center;
+}
+main .div-adopcion .h1-adopcion {
+  font-weight: bold;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .div-adopcion .p-adopcion {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .div-adopcion:hover {
+  background-color: bisque;
+  transition-duration: 0.3s;
+  font-size: 20px;
+}
+main #div-adopcion-perro {
+  background-color: rgba(245, 245, 245, 0.486);
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+  display: inline-block;
+}
+main #div-adopcion-perro .h2-adopcion-perro {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #div-adopcion-perro .h2-adopcion-perro .p-adopcion-perro {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #div-adopcion-perro:hover {
+  background-color: white;
+  font-size: 20px;
+  transition: font-size 0.3s;
+}
+main #div-adopcion-gato {
+  background-color: rgba(245, 245, 245, 0.486);
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+  display: inline-block;
+}
+main #div-adopcion-gato .h2-adopcion-gato {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #div-adopcion-gato .h2-adopcion-gato .p-adopcion-gato {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #div-adopcion-gato:hover {
+  background-color: white;
+  font-size: 20px;
+  transition: font-size 0.3s;
+}
+main .formulario-adopcion {
+  text-align: center;
+  background-color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 300px;
+}
+main .form-adopcion {
+  background-color: rgba(251, 229, 172, 0.8156862745);
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+}/*# sourceMappingURL=adopcion.css.map */

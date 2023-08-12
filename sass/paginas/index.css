@@ -14,4 +14,8 @@ main .diseño-div:hover .diseño-h1 {
 main .diseño-div:hover .diseño-p {
   color: white;
   font-size: 18px;
+}
+main .card {
+  background-color: #627C85;
+  border-color: #63997a;
 }/*# sourceMappingURL=index.css.map */

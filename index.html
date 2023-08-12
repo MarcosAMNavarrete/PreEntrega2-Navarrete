@@ -11,55 +11,64 @@
 </head>
 <body>
     <header>
-        <div class="persona">
-            <img src="Ysya.jpeg" alt="cara de ysya">
-            <h2 class="YsYa">¿Quien es YsY A?</h2>
-        </div>
-        <nav>
-            <a class="abc" href="./pages/ysysmo.html" class="nav-link">YsYsmo</a>
-            <a class="abc" href="./pages/antezana247.html" class="nav-link">Antezana 247</a>
-            <a class="abc" href="./pages/contacto.html" class="nav-link">Contacto</a>
-        </nav> 
-    </header>
-    <main>
-        <section class="centro">
-            <div class="informacion">
-                <h2>Comienzo de Alejo</h2>
-                <br><p class="parrafo">Alejo Nahuel Acosta, conocido artísticamente como YSY A, ​ es un rapero, productor, freestyler, cantautor acústico y diseñador argentino.​Alejo Acosta se hizo conocido en 2015 cuando formó la competencia de rap El Quinto Escalón con apenas 15 años, junto al músico y presentador Muphasa MC.</p>
-                <br><p>En 2018, formó parte del supergrupo "Modo Diablo", junto a los raperos Duki y Neo Pistea, que popularizó al género del trap en Argentina gracias a sus sencillos «Quavo» y «Trap N' Export», y el 11 de noviembre de ese mismo año lanzó su álbum de estudio debut, Antezana 247, que tuvo una gran recepción pór parte del público y críticos</p>
-            </div>
-            <div class="informacion">
-                <div>
-                    <br><h3>Nacimiento</h3>
-                    <br><p>12 de julio de 1998 (25 años)
-                        Buenos Aires, Argentina</p>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a style="font-family: Georgia, 'Times New Roman', Times, serif;" class="navbar-brand" href="../index.html">Cats and Dogs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/situacion.html">Situación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/rescate.html">Rescate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/adopcion.html">Adopción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
-                <div>Su exito exponencial se debe al junte con Neo Pistea y Duki. Formando asi el MODO DIABLO</div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-index">
+        <section id="titulo" class="diseño-div">
+            <h1 class="diseño-h1">Animales en Situación de Calle</h1>
+            <p class="diseño-p">En esta página encontrarás información sobre la situación de perros y gatos que se encuentran en situación de calle, cómo puedes ayudar y más.</p>
+            <a href="/pages/situacion.html" class="btn btn-primary" style="font-size: 14px; transition: font-size 0.3s;">Conoce más</a>
+        </section>
+        <section class="cards d-flex justify-content-center flex-wrap mt-4">    
+            <div class="card mx-2" style="width: 18rem;">
+                <img src="./assets/Cara de perro.avif" class="card-img-top" alt="Perro">
+                <div class="card-body">
+                    <h5 class="card-title">Perros en Situación de Calle</h5>
+                    <p class="card-text">Los perros en situación de calle sufren de malnutrición, enfermedades y abandono. Nuestro objetivo es rescatar y brindarles una vida digna a estos animales necesitados.</p>
+                    <a href="/pages/adopcion.html" class="btn btn-primary">Adoptame</a>
+                </div>
+            </div>
+            <div class="card mx-2" style="width: 18rem;">
+                <img src="./assets/Gato sorprendido por ser adoptado.jpg" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Gatos en Situación de Calle</h5>
+                    <p class="card-text">Los gatos en situación de calle enfrentan peligros y maltratos diarios. Nuestro objetivo es rescatar y encontrar hogares amorosos para estos felinos desprotegidos.</p>
+                    <a href="/pages/adopcion.html" class="btn btn-primary">Adoptame</a>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="pie-pagina">
-        <div class="pie">
-            <div class="box">
-                <figure class="img">
-                    <a href="#">
-                        <img src="ysysmo.jpeg" alt="ysysmo">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>El Mejor Amigo de YsY A</h2>
-                <p>io</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis rerum eligendi repudiandae maiores laudantium tempora pariatur totam sunt suscipit neque harum ipsum labore aspernatur repellendus id animi, ipsa eum?</p>
-            </div>
-            <div class="box">
-                <h2>Siguelo :D</h2>
-                <div class="red-social">
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                </div>
-            </div>
-        </div>
+
+    <footer class="foot">
+        <p>Derechos de autor © 2023 - Animales en Situación de Calle</p>
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
